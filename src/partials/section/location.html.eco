@@ -1,15 +1,7 @@
 <h2 class="section-title"><%= @labels['location'] %></h2>
 <p>
-	It may seem crazy, but Hawaiian Falls water park is the ideal space for an 
-	unconference. A beautiful great room, solid internet access and break
-	out rooms allow attendees to spread out and truly take advantage
-	of the un-conference format.
-</p>
-
-<p>
-	It also doesn't hurt that Hawaiian Falls is providing a free water park 
-	admission this summer for each participant! Use some other conference's 
-	t-shirt to keep the sun off!
+  Last year we hosted Container Days at Hawaiian Falls water park.   We'll be announcing
+  very soon where 2016 will be.
 </p>
 
 

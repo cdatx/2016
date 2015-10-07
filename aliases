@@ -1,0 +1,4 @@
+alias up="docker-compose up --force-recreate cdatx"
+alias test="docker run -ti --entrypoint='sh' --rm cdatx/2016 /cdatx/test"
+alias build="docker-compose build"
+alias dc="docker-compose"

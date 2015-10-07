@@ -1,4 +1,8 @@
-FROM node
+FROM alpine:3.2
+
+RUN apk add --update && \
+    apk add bash nodejs && \
+    rm /var/cache/apk/*
 
 ADD . /cdatx
 

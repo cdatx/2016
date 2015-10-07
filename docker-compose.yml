@@ -1,0 +1,7 @@
+cdatx:
+  build: .
+  ports:
+    - 9778:9778
+  volumes:
+    - .:/cdatx
+  command: sh /cdatx/compose-init

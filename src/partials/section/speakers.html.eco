@@ -1,7 +1,7 @@
 <h2 class="section-title"><%= @labels['speakers'] %></h2>
 <p>
-  DevOps Days Austin organizers Ernest Mueller and Boyd Hemphill will be hosting
-  the event Friday and Saturday. 
+  Full list of speakers soon!   One thing is certain though,  the amazing Boyd Hemphill ( Director of DevOps for Pflugerville ) will
+  have plenty to say.
 </p>
 <ul class="speakers-list">
 <% for speaker in @schedule: %>

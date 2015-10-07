@@ -52,7 +52,7 @@ Pré-requisitos: Instale o [Git](http://git-scm.com/downloads) e o [NodeJS](http
 
     ```sh
     $ git clone git://github.com/braziljs/conf-boilerplate.git
-
+    ```
 3. Vá para pasta do projeto:
 
     ```sh
@@ -282,6 +282,10 @@ Confira os eventos que usaram esse projeto como pontapé inicial:
 * [Stretch Conference](http://stretchcon.com/2013/)
 * [Meet.us()](http://meetus.github.io/) ([source code](https://github.com/meetus/meetus.github.io))
 * [MPI LAMEC 2014](http://mpilamec.com/)
+* [Front in Cuiabá](http://frontincuiaba.com.br/) ([source code](https://github.com/braziljs/front-in-cuiaba))
+* [JS Day - Feira de Santana](http://jsday.com.br/) ([source code](https://github.com/devfsa/jsday))
+* [V SAICC](http://saicc.furg.br/)
+* [Dia do Codigo](http://diadocodigo.org/)
 
 Criou um site usando o ConfBoilerplate? Nos avise =D
 
