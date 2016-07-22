@@ -1,7 +1,7 @@
 <h2 class="section-title"><%= @labels['location'] %></h2>
 <p>
-  Last year we hosted Container Days at Hawaiian Falls water park.   We'll be announcing
-  very soon where 2016 will be.
+We will host the conference on October 14th and 15th at the brand new <a href="https://www.tacc.utexas.edu/">Texas Advanced Computing Center</a> located at <a href="https://www.google.com/maps/place/10100+Burnet+Rd,+Austin,+TX+78758/@30.3873228,-97.7272046,19z/data=!4m13!1m7!3m6!1s0x8644cb896afc098f:0x3a6bbf470ba1c215!2s10100+Burnet+Rd,+Austin,+TX+78758!3b1!8m2!3d30.387302!4d-97.726589!3m4!1s0x8644cb896afc098f:0x3a6bbf470ba1c215!8m2!3d30.387302!4d-97.726589">10100 Burnet Rd, Austin, TX 78758</a>.
+
 </p>
 
 
@@ -11,4 +11,4 @@
   <span itemprop="addressRegion"> <%= @conf.state %></span>
 </p>
 
-<div id="map-canvas" class="location-area" data-address="Hawaiian Falls Pflugerville"></div>
+<div id="map-canvas" class="location-area" data-address="Texas Advanced Computing Center"></div>

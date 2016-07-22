@@ -9,12 +9,12 @@ module.exports = {
     conf: {
       name: "Container Days Austin 2016",
       description: "High quality, local discussion on Docker, CoreOS, LXC etc.",
-      date: "Early 2016",
+      date: "October 14th, 15th 2016",
 
       // If your event is free, just comment this line
       // price: "$ TBA",
-      venue: "TBA",
-      address: "",
+      venue: "Texas Advanced Computing Center (TACC)",
+      address: "10100 Burnet Rd",
       city: "Austin",
       state: "Texas"
     },
@@ -65,17 +65,17 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Boyd Hemphill",
+        name: "Karthik Gaekwad",
         photo: "https://pbs.twimg.com/profile_images/3525655355/04dafec967eea72a64c815f4af0c68a4_400x400.jpeg",
-        bio: "In his capacity as Evangelist at StackEngine, Boyd dreamed of a DevOps Days style conference for the containerization revolution.",
+        bio: "Karthik is a technologist who lives in Austin who loves 3 things- BBQ, containers, and the Austin tech scene! While he's not working on the container team at Oracle, he runs the local Austin Docker Meetup, Cloud Austin and Devopsdays.",
         presentation: {
           title: "Welcome to Container Days",
           description: "Welcome to the second Container Days Austin.",
           time: "Friday, 6:30pm"
         },
         link: {
-          href: "https://twitter.com/behemphi",
-          text: "@behemphi"
+          href: "https://twitter.com/iteration1",
+          text: "@iteration1"
         }
       },
     ],

@@ -1,10 +1,13 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
 <p itemprop="description">
-	Container Days is an un-conference style gathering meant to
-	discuss the revolution of Docker, CoreOS and other light weight
-	virtualization technologies and their applications.
-</p>
+  With the overwhelming success of Container Days Austin in 2015, we are launching the 2nd annual Container Days in Austin in October 2016! This year, we will host the conference on October 14th and 15th at the brand new <a href="https://www.tacc.utexas.edu/">Texas Advanced Computing Center</a> located at <a href="https://www.google.com/maps/place/10100+Burnet+Rd,+Austin,+TX+78758/@30.3873228,-97.7272046,19z/data=!4m13!1m7!3m6!1s0x8644cb896afc098f:0x3a6bbf470ba1c215!2s10100+Burnet+Rd,+Austin,+TX+78758!3b1!8m2!3d30.387302!4d-97.726589!3m4!1s0x8644cb896afc098f:0x3a6bbf470ba1c215!8m2!3d30.387302!4d-97.726589">10100 Burnet Rd, Austin, TX 78758</a>.
 
+</p>
+<p>
+
+  Container Days will be bigger than last year with around 250 people interested in containers and container technologies. Container Days is an un-conference style gathering meant to discuss the revolution of Docker, CoreOS and other light weight virtualization technologies and their applications.
+
+</p>
 <p>
 	Patterned closely after <a href="http://www.citconf.com/austin2014/" target="_blank">
 	CitCon</a> and <a href="http://www.devopsdays.org/events/2014-austin/" target="_blank">
@@ -18,5 +21,5 @@
 </p>
 
 <p>
-	<a href="https://www.eventbrite.com/e/container-days-austin-2015-tickets-15159477405" target="_blank">Registration</a> is now open.
+	<a href="#" target="_blank">Registration</a> is coming soon (August 1st).
 </p>
