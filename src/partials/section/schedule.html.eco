@@ -1,37 +1,27 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
 <p>
-  Container Days Austin happens Friday night (March 27th) and all day Saturday (March 28th).
+  Container Days Austin happens Friday night (October 14th) and all day Saturday (October 15th).
 </p>
 <p>
-  Friday night includes a great talk followed by hors-d'oeuvres 
+  Friday night includes a great talk followed by hors-d'oeuvres
   and drinks while conducting the opening circle and session planning. The
-  evening will close with a social hour.  
+  evening will close with a social hour.
 </p>
 <p>
-  If you would like to lead a session, please consider having something 
-  prepared to spark a discussion. This might be a short demo of a problem you 
-  are having implementing containers, or a demonstration of how you are 
+  If you would like to lead a session, please consider having something
+  prepared to spark a discussion. This might be a short demo of a problem you
+  are having implementing containers, or a demonstration of how you are
   aggregating logs, etc. We will have at least two spaces with AV for demos
   and other visual presentations.
 </p>
 <p>
-  Saturday opens with breakfast and a quick review of the un-conference 
+  Saturday opens with breakfast and a quick review of the un-conference
   rules.  A great talk to start the day will set the tone for our morning 
-  sessions. Jack Hates Coffee will be serving your favorite latte on site for most of the day as well.
-</p>
-<p>
-  During lunch attendees can choose to play in the arcade or continue 
-  interesting conversations in the Lean Coffee style in the 
-  break out rooms.  
+  sessions.
 </p>
 <p>
   Four open sessions across 6 locations will provide a variety of topics 
   determined by attendees fill the afternoon, followed by the closing circle.
-</p>
-<p>
-  While not officially part of the conference, the tradition of #BeerOps in
-  Austin will happen at Shogun, just across the road from Hawaiian Falls.  We
-  will take a poll and make reservations accordingly.  Come ready to socialize.
 </p>
 <div class="schedule-tbl">
   <table>

@@ -39,11 +39,10 @@ module.exports = {
       'about',
       'location',
       'speakers',
-      'openspaces',
+      'sponsors',
       'schedule',
       'workshop',
-      'sponsors',
-      'partners',
+      'openspaces',
       'contact',
       'twitter'
     ],
@@ -53,10 +52,9 @@ module.exports = {
       about: "About",
       location: "Location",
       speakers: "Speakers",
-      openspaces: "Open Spaces",
       schedule: "Schedule",
       sponsors: "Sponsors",
-      partners: "Partners",
+      openspaces: "What are OpenSpaces?",
       contact: "Contact",
       twitter: "Twitter",
       workshop: "Workshop"
@@ -91,10 +89,10 @@ module.exports = {
 
     // List of Partners
     partners: [
-      {
-        name: "Stack Engine",
-        logo: "http://stackengine.com/wp-content/uploads/2014/04/StackEngine_Lo_FF1-e1398284107204.jpg",
-        url: "http://stackengine.com/"
+     {
+//        name: "Stack Engine",
+//        logo: "http://stackengine.com/wp-content/uploads/2014/04/StackEngine_Lo_FF1-e1398284107204.jpg",
+//        url: "http://stackengine.com/"
       }
     ],
 

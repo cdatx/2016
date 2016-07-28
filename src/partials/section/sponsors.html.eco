@@ -1,11 +1,8 @@
 <h2 class="section-title"><%= @labels['sponsors'] %></h2>
 <p>
-  Sponsors make conferences go, but sponsors committed to the community are
-  the ones who take risks on first time events. A great thanks to our
-  sponsors for their contributions of money, time and expertise.
-</p>
-<p>
- Interested in becoming a sponsor?  Email <a href="mailto:container-days-austin-organizers@googlegroups.com">container-days-austin-organizers@googlegroups.com</a>
+This will be the 2nd installment of Container Days in Austin. Last year, container days was a sold out conference with 200 attendees and was very warmly received. This year, we expect 250 attendees who are leading edge implementers in the container space. Sponsoring Container Days connects your company to local technical and business minds who influence decisions in Containers, IT operations and devops. Container Days Austin offers the following sponsorship packages for 2016, held October 14, 15 at the Texas Advanced Computing Center. For more questions on sponsorships, please email us at <a href="mailto:container-days-austin-organizers@googlegroups.com">container-days-austin-organizers@googlegroups.com</a>.
+<br/><br/>
+<a href="https://drive.google.com/file/d/0B_eRe_5-Gg4bLVhJa05ic290Sms/view?usp=sharing" target="_blank">Download the Sponsor Prospectus</a>
 </p>
 <ul class="sponsors-list">
 
