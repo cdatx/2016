@@ -7,9 +7,9 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Container Days Austin 2016",
+      name: "Container Days Austin",
       description: "High quality, local discussion on Docker, CoreOS, LXC etc.",
-      date: "October 14th, 15th 2016",
+      date: "October 14th & 15th 2016",
 
       // If your event is free, just comment this line
       // price: "$ TBA",
@@ -79,12 +79,10 @@ module.exports = {
     ],
 
     // List of Sponsors
+//        name: "StackEngine",
+//        logo: "http://stackengine.com/wp-content/uploads/2014/04/StackEngine_Lo_FF1-e1398284107204.jpg",
+//        url: "http://stackengine.com/"
     sponsors: [
-      {
-        name: "StackEngine",
-        logo: "http://stackengine.com/wp-content/uploads/2014/04/StackEngine_Lo_FF1-e1398284107204.jpg",
-        url: "http://stackengine.com/"
-      }
     ],
 
     // List of Partners
