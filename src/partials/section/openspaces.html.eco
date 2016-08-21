@@ -1,4 +1,5 @@
 <h2 class="section-title"><%= @labels['openspaces'] %></h2>
+<h3>What are OpenSpaces?</h3>
 <p>
     OpenSpace is a small set of rules that allow groups of people to interact in 
     a simple, productive, organized way to create valuable dialogs that address 

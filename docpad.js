@@ -38,13 +38,12 @@ module.exports = {
     sections: [
       'about',
       'location',
-      'speakers',
       'sponsors',
       'register',
       'schedule',
       'workshop',
       'openspaces',
-      'contact',
+      'conduct',
       'twitter'
     ],
 
@@ -56,8 +55,8 @@ module.exports = {
       schedule: "Schedule",
       sponsors: "Sponsors",
       register: "Register",
-      openspaces: "What are OpenSpaces?",
-      contact: "Contact",
+      openspaces: "Openspaces",
+      conduct: "Conduct",
       twitter: "Twitter",
       workshop: "Workshop"
     },
@@ -65,12 +64,82 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
+        name: "Registration",
+        photo: "/themes/yellow-swan/img/register.png",
+        bio: "",
+        presentation: {
+          title: "Registration",
+          description: "Registration begins at 9am, and continues till 10am. Come early, grab a coffee, and interact with your peers.",
+          time: "Friday, 9am"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Workshop #1",
+        photo: "/themes/yellow-swan/img/container.png",
+        bio: "",
+        presentation: {
+          title: "Container Workshop",
+          description: "Details coming very soon.",
+          time: "Friday, 10am"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Workshop #2",
+        photo: "/themes/yellow-swan/img/container.png",
+        bio: "",
+        presentation: {
+          title: "Container Workshop",
+          description: "Details coming very soon.",
+          time: "Friday, 1pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Workshop #3",
+        photo: "/themes/yellow-swan/img/container.png",
+        bio: "",
+        presentation: {
+          title: "Container Workshop",
+          description: "Details coming very soon.",
+          time: "Friday, 3pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Registration",
+        photo: "/themes/yellow-swan/img/register.png",
+        bio: "",
+        presentation: {
+          title: "Registration",
+          description: "Evening registration begins at 5pm.",
+          time: "Friday, 5pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
         name: "Karthik Gaekwad",
-        photo: "https://pbs.twimg.com/profile_images/3525655355/04dafec967eea72a64c815f4af0c68a4_400x400.jpeg",
+        photo: "/themes/yellow-swan/img/speaker/karthik.jpg",
         bio: "Karthik is a technologist who lives in Austin who loves 3 things- BBQ, containers, and the Austin tech scene! While he's not working on the container team at Oracle, he runs the local Austin Docker Meetup, Cloud Austin and Devopsdays.",
         presentation: {
-          title: "Welcome to Container Days",
-          description: "Welcome to the second Container Days Austin.",
+          title: "Welcome!",
+          description: "Welcome to Container Days Austin. ",
           time: "Friday, 6:30pm"
         },
         link: {
@@ -78,6 +147,174 @@ module.exports = {
           text: "@iteration1"
         }
       },
+      {
+        name: "Keynote",
+        photo: "/themes/yellow-swan/img/speaker/speaker.png",
+        bio: "",
+        presentation: {
+          title: "Keynote",
+          description: "Container Days kickoff with an awesome keynote. Stay tuned for details.",
+          time: "Friday, 5:45pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Happy Hour",
+        photo: "/themes/yellow-swan/img/hh.png",
+        bio: "",
+        presentation: {
+          title: "Happy Hour",
+          description: "Kick back, and enjoy a happy hour with conference goers and peers.",
+          time: "Friday, 6:30pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Registration",
+        photo: "/themes/yellow-swan/img/register.png",
+        bio: "",
+        presentation: {
+          title: "Registration",
+          description: "Registration begins at 9am, and continues till 10am. Come early, grab a coffee, and interact with your peers.",
+          time: "Saturday, 9am"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Keynote",
+        photo: "/themes/yellow-swan/img/speaker/speaker.png",
+        bio: "",
+        presentation: {
+          title: "Keynote",
+          description: "Container Days kickoff with an awesome keynote. Stay tuned for details.",
+          time: "Saturday, 10am"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Session #1",
+        photo: "/themes/yellow-swan/img/speaker/speaker.png",
+        bio: "",
+        presentation: {
+          title: "Session #1",
+          description: "A very special talk. Stay tuned for details.",
+          time: "Saturday, 9:55am"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Session #2",
+        photo: "/themes/yellow-swan/img/speaker/speaker.png",
+        bio: "",
+        presentation: {
+          title: "Session #2",
+          description: "A very special talk. Stay tuned for details.",
+          time: "Saturday, 10:30am"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Lunch",
+        photo: "/themes/yellow-swan/img/lunch.png",
+        bio: "",
+        presentation: {
+          title: "Lunch",
+          description: "",
+          time: "Saturday, noon"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Openspace Sessions",
+        photo: "/themes/yellow-swan/img/conversation.png",
+        bio: "",
+        presentation: {
+          title: "Openspace #1",
+          description: "",
+          time: "Saturday, 1pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Openspace Sessions",
+        photo: "/themes/yellow-swan/img/conversation.png",
+        bio: "",
+        presentation: {
+          title: "Openspace #2",
+          description: "",
+          time: "Saturday, 2pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Openspace Sessions",
+        photo: "/themes/yellow-swan/img/conversation.png",
+        bio: "",
+        presentation: {
+          title: "Openspace #3",
+          description: "",
+          time: "Saturday, 3pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Openspace Sessions",
+        photo: "/themes/yellow-swan/img/conversation.png",
+        bio: "",
+        presentation: {
+          title: "Openspace #4",
+          description: "",
+          time: "Saturday, 4pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Closing",
+        photo: "/themes/yellow-swan/img/speaker/karthik.jpg",
+        bio: "",
+        presentation: {
+          title: "Closing Circle",
+          description: "Gather back as a larger group to close the conference and share our openspace learnings.",
+          time: "Saturday, 5pm"
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      }
     ],
 
     // List of Sponsors

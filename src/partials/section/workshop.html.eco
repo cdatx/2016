@@ -1,5 +1,5 @@
 <h2 class="section-title"><%= @labels['workshop'] %></h2>
 <p itemprop="description">
-  Last year we kicked off Container Days Austin with a full day workshop.   Stay tuned to hear what we plan for 2016! Interested in giving a workshop on Docker/Kubernetes/CoreOS or other container technologies? Please contact our organizers <a href="mailto:container-days-austin-organizers@googlegroups.com">container-days-austin-organizers@googlegroups.com</a>.
+  Last year we kicked off Container Days Austin with a full day workshop.   Stay tuned to hear what we plan for 2016! Interested in giving a workshop on Docker/Kubernetes/CoreOS or other container technologies?
 </p>
 
