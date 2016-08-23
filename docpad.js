@@ -65,7 +65,7 @@ module.exports = {
     schedule: [
       {
         name: "Registration",
-        photo: "/themes/yellow-swan/img/register.png",
+        photo: "./themes/yellow-swan/img/register.png",
         bio: "",
         presentation: {
           title: "Registration",
@@ -79,7 +79,7 @@ module.exports = {
       },
       {
         name: "Workshop #1",
-        photo: "/themes/yellow-swan/img/container.png",
+        photo: "./themes/yellow-swan/img/container.png",
         bio: "",
         presentation: {
           title: "Container Workshop",
@@ -93,7 +93,7 @@ module.exports = {
       },
       {
         name: "Workshop #2",
-        photo: "/themes/yellow-swan/img/container.png",
+        photo: "./themes/yellow-swan/img/container.png",
         bio: "",
         presentation: {
           title: "Container Workshop",
@@ -107,7 +107,7 @@ module.exports = {
       },
       {
         name: "Workshop #3",
-        photo: "/themes/yellow-swan/img/container.png",
+        photo: "./themes/yellow-swan/img/container.png",
         bio: "",
         presentation: {
           title: "Container Workshop",
@@ -121,7 +121,7 @@ module.exports = {
       },
       {
         name: "Registration",
-        photo: "/themes/yellow-swan/img/register.png",
+        photo: "./themes/yellow-swan/img/register.png",
         bio: "",
         presentation: {
           title: "Registration",
@@ -135,7 +135,7 @@ module.exports = {
       },
       {
         name: "Karthik Gaekwad",
-        photo: "/themes/yellow-swan/img/speaker/karthik.jpg",
+        photo: "./themes/yellow-swan/img/speaker/karthik.jpg",
         bio: "Karthik is a technologist who lives in Austin who loves 3 things- BBQ, containers, and the Austin tech scene! While he's not working on the container team at Oracle, he runs the local Austin Docker Meetup, Cloud Austin and Devopsdays.",
         presentation: {
           title: "Welcome!",
@@ -149,7 +149,7 @@ module.exports = {
       },
       {
         name: "Keynote",
-        photo: "/themes/yellow-swan/img/speaker/speaker.png",
+        photo: "./themes/yellow-swan/img/speaker/speaker.png",
         bio: "",
         presentation: {
           title: "Keynote",
@@ -163,7 +163,7 @@ module.exports = {
       },
       {
         name: "Happy Hour",
-        photo: "/themes/yellow-swan/img/hh.png",
+        photo: "./themes/yellow-swan/img/hh.png",
         bio: "",
         presentation: {
           title: "Happy Hour",
@@ -177,7 +177,7 @@ module.exports = {
       },
       {
         name: "Registration",
-        photo: "/themes/yellow-swan/img/register.png",
+        photo: "./themes/yellow-swan/img/register.png",
         bio: "",
         presentation: {
           title: "Registration",
@@ -191,7 +191,7 @@ module.exports = {
       },
       {
         name: "Keynote",
-        photo: "/themes/yellow-swan/img/speaker/speaker.png",
+        photo: "./themes/yellow-swan/img/speaker/speaker.png",
         bio: "",
         presentation: {
           title: "Keynote",
@@ -205,7 +205,7 @@ module.exports = {
       },
       {
         name: "Session #1",
-        photo: "/themes/yellow-swan/img/speaker/speaker.png",
+        photo: "./themes/yellow-swan/img/speaker/speaker.png",
         bio: "",
         presentation: {
           title: "Session #1",
@@ -219,7 +219,7 @@ module.exports = {
       },
       {
         name: "Session #2",
-        photo: "/themes/yellow-swan/img/speaker/speaker.png",
+        photo: "./themes/yellow-swan/img/speaker/speaker.png",
         bio: "",
         presentation: {
           title: "Session #2",
@@ -233,7 +233,7 @@ module.exports = {
       },
       {
         name: "Lunch",
-        photo: "/themes/yellow-swan/img/lunch.png",
+        photo: "./themes/yellow-swan/img/lunch.png",
         bio: "",
         presentation: {
           title: "Lunch",
@@ -247,7 +247,7 @@ module.exports = {
       },
       {
         name: "Openspace Sessions",
-        photo: "/themes/yellow-swan/img/conversation.png",
+        photo: "./themes/yellow-swan/img/conversation.png",
         bio: "",
         presentation: {
           title: "Openspace #1",
@@ -261,7 +261,7 @@ module.exports = {
       },
       {
         name: "Openspace Sessions",
-        photo: "/themes/yellow-swan/img/conversation.png",
+        photo: "./themes/yellow-swan/img/conversation.png",
         bio: "",
         presentation: {
           title: "Openspace #2",
@@ -275,7 +275,7 @@ module.exports = {
       },
       {
         name: "Openspace Sessions",
-        photo: "/themes/yellow-swan/img/conversation.png",
+        photo: "./themes/yellow-swan/img/conversation.png",
         bio: "",
         presentation: {
           title: "Openspace #3",
@@ -289,7 +289,7 @@ module.exports = {
       },
       {
         name: "Openspace Sessions",
-        photo: "/themes/yellow-swan/img/conversation.png",
+        photo: "./themes/yellow-swan/img/conversation.png",
         bio: "",
         presentation: {
           title: "Openspace #4",
@@ -303,7 +303,7 @@ module.exports = {
       },
       {
         name: "Closing",
-        photo: "/themes/yellow-swan/img/speaker/karthik.jpg",
+        photo: "./themes/yellow-swan/img/speaker/karthik.jpg",
         bio: "",
         presentation: {
           title: "Closing Circle",
