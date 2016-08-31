@@ -322,6 +322,26 @@ module.exports = {
 //        logo: "http://stackengine.com/wp-content/uploads/2014/04/StackEngine_Lo_FF1-e1398284107204.jpg",
 //        url: "http://stackengine.com/"
     sponsors: [
+     {
+        name: "Rancher",
+        logo: "themes/yellow-swan/img/sponsor/rancher.png",
+        url: "http://www.rancher.com/"
+      },
+     {
+        name: "CDK Global",
+        logo: "themes/yellow-swan/img/sponsor/cdk.png",
+        url: "http://www.cdkglobal.com/"
+      },
+     {
+        name: "Sysdig",
+        logo: "themes/yellow-swan/img/sponsor/sysdig.png",
+        url: "http://www.sysdig.org/"
+      },
+     {
+        name: "NewIron",
+        logo: "themes/yellow-swan/img/sponsor/newiron.png",
+        url: "http://newiron.com/"
+      }
     ],
 
     // List of Partners
