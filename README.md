@@ -1,6 +1,6 @@
 [![Build Status](https://api.shippable.com/projects/54928faad46935d5fbc0867f/badge?branchName=master)](https://app.shippable.com/projects/54928faad46935d5fbc0867f/builds/latest)
 
-Container Days ATX - 2015
+Container Days ATX - 2016
 =========================
 
 Contribution Guide
