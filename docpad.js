@@ -323,6 +323,11 @@ module.exports = {
 //        url: "http://stackengine.com/"
     sponsors: [
      {
+        name: "Flux7",
+        logo: "themes/yellow-swan/img/sponsor/flux7.png",
+        url: "https://www.flux7.com/"
+      },
+     {
         name: "Rancher",
         logo: "themes/yellow-swan/img/sponsor/rancher.png",
         url: "http://www.rancher.com/"
