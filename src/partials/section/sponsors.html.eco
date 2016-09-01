@@ -36,19 +36,16 @@ This will be the 2nd installment of Container Days in Austin. Last year, contain
 </td>
 <td>
 <p>Breakfast Sponsor:</p>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="YSQFLGBP7LHR6">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+<p><strong>Sold out!</strong></p>
 </td>
 </tr>
 </table>
 </p>
+<br/>
+<br/>
+<h4>Gold Sponsors</h4>
 <ul class="sponsors-list">
-
-<% for sponsor in @sponsors: %>
+<% for sponsor in @boothSponsors: %>
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
     <a href="<%= sponsor.url %>" class="sponsor-logo sponsor--link" itemprop="url">
       <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
@@ -61,3 +58,62 @@ This will be the 2nd installment of Container Days in Austin. Last year, contain
     </a>
   </li>
 </ul>
+
+<table>
+<tr>
+<td>
+
+<h4>Happy Hour</h4>
+<ul class="sponsors-list">
+<% for sponsor in @hhSponsors: %>
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor--link" itemprop="url">
+      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+    </a>
+  </li>
+<% end %>
+  <li class="sponsor-item">
+    <a class="sponsor-logo sponsor--link sponsor-call" href="#">
+      <img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
+    </a>
+  </li>
+</ul>
+
+</td>
+<td>
+
+<h4>Lunch</h4>
+<ul class="sponsors-list">
+<% for sponsor in @lunchSponsors: %>
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor--link" itemprop="url">
+      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+    </a>
+  </li>
+<% end %>
+  <li class="sponsor-item">
+    <a class="sponsor-logo sponsor--link sponsor-call" href="#">
+      <img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
+    </a>
+  </li>
+</ul>
+</td>
+
+<td>
+
+<h4>Breakfast</h4>
+<ul class="sponsors-list">
+<% for sponsor in @breakfastSponsors: %>
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor--link" itemprop="url">
+      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+    </a>
+  </li>
+<% end %>
+</ul>
+
+</td>
+</tr>
+</table>
+
+

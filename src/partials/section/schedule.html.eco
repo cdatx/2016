@@ -1,11 +1,12 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
 <p>
-  Container Days Austin happens Friday night (October 14th) and all day Saturday (October 15th).
+  Container Days Austin happens all day Friday (October 14th) and Saturday (October 15th).
 </p>
 <p>
-  Friday night includes a great talk followed by hors-d'oeuvres
-  and drinks while conducting the opening circle and session planning. The
-  evening will close with a social hour.
+  Friday includes training classes on all things containers followed by an evening keynote, and close out the evening with a social happy hour.
+</p>
+<p>
+  Saturday opens with breakfast and a set of talks followed by a quick openspace planning session. After lunch, we will break into four open sessions across 6 locations will provide a variety of topics determined by attendees fill the afternoon, followed by the closing circle.
 </p>
 <p>
   If you would like to lead a session, please consider having something
@@ -13,15 +14,6 @@
   are having implementing containers, or a demonstration of how you are
   aggregating logs, etc. We will have at least two spaces with AV for demos
   and other visual presentations.
-</p>
-<p>
-  Saturday opens with breakfast and a quick review of the un-conference
-  rules.  A great talk to start the day will set the tone for our morning 
-  sessions.
-</p>
-<p>
-  Four open sessions across 6 locations will provide a variety of topics 
-  determined by attendees fill the afternoon, followed by the closing circle.
 </p>
 <div class="schedule-tbl">
   <table>
@@ -47,7 +39,9 @@
             <%= slot.presentation.title %>
               <span class="speakers-company"><%= slot.company %></span>
             </td>
-            <td class="schedule-description"><%= slot.presentation.description %></td>
+            <td class="schedule-description">
+            <%= slot.presentation.description %> <a target="_blank" href="<%= slot.presentation.href %>"> <%= slot.presentation.hreftext %></a>
+            </td>
           </tr>
         <% else: %>
           <tr class="schedule-other">

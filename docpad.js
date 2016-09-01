@@ -69,8 +69,8 @@ module.exports = {
         bio: "",
         presentation: {
           title: "Registration",
-          description: "Registration begins at 9am, and continues till 10am. Come early, grab a coffee, and interact with your peers.",
-          time: "Friday, 9am"
+          description: "Registration begins at 8am, and continues till 9am. Come early, grab a coffee, and interact with your peers.",
+          time: "Friday, 8am"
         },
         link: {
           href: "",
@@ -78,27 +78,46 @@ module.exports = {
         }
       },
       {
-        name: "Workshop #1",
+        name: "Workshop #1a",
+        photo: "./themes/yellow-swan/img/speaker/bill.jpg",
+        bio: "",
+        presentation: {
+          title: "Docker 101 Workshop",
+          description: "Getting started with learning Docker with Bill Maxwell.",
+          time: "Friday, 9am",
+          href: "/talks/workshop1.html",
+          hreftext: "Details..."
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },
+      {
+        name: "Workshop #1b",
         photo: "./themes/yellow-swan/img/container.png",
         bio: "",
         presentation: {
-          title: "Container Workshop",
-          description: "Details coming very soon.",
-          time: "Friday, 10am"
+          title: "Chef Habitat Workshop",
+          description: "Introduction to Application Automation with Habitat.",
+          time: "Friday, 9am",
+          href: "/talks/workshop2.html",
+          hreftext: "Details..."
         },
         link: {
-          href: "",
-          text: ""
+          href: "/workshops/habitat",
+          text: "Workshop details and pre req"
         }
-      },
-      {
+      },      {
         name: "Workshop #2",
-        photo: "./themes/yellow-swan/img/container.png",
+        photo: "./themes/yellow-swan/img/speaker/everett.jpg",
         bio: "",
         presentation: {
-          title: "Container Workshop",
-          description: "Details coming very soon.",
-          time: "Friday, 1pm"
+          title: "Docker Swarm ++ ",
+          description: "Orchestration Containers in Production at Scale with Docker Swarm with Everett Toews.",
+          time: "Friday, 1pm",
+          href: "/talks/workshop3.html",
+          hreftext: "Details..."
         },
         link: {
           href: "",
@@ -110,9 +129,11 @@ module.exports = {
         photo: "./themes/yellow-swan/img/container.png",
         bio: "",
         presentation: {
-          title: "Container Workshop",
-          description: "Details coming very soon.",
-          time: "Friday, 3pm"
+          title: "Intro to Kubernetes",
+          description: "Go over Kubernetes specifics, and learn how to run container based applications in a Kubernetes cluster.",
+          time: "Friday, 1pm",
+          href: "/workshops/workshop4.html",
+          hreftext: "Details..."
         },
         link: {
           href: "",
@@ -120,13 +141,28 @@ module.exports = {
         }
       },
       {
+        name: "Workshop #4",
+        photo: "./themes/yellow-swan/img/speaker/alan.jpg",
+        bio: "jjdsajdpao",
+        presentation: {
+          title: "Intro to Mesos",
+          description: "Introduction to Mesos, learning how to build a production Mesos cluster, and common pitfalls.",
+          time: "Friday, 1pm",
+          href: "/workshops/workshop5.html",
+          hreftext: "Details..."
+        },
+        link: {
+          href: "",
+          text: ""
+        }
+      },      {
         name: "Registration",
         photo: "./themes/yellow-swan/img/register.png",
         bio: "",
         presentation: {
           title: "Registration",
           description: "Evening registration begins at 5pm.",
-          time: "Friday, 5pm"
+          time: "Friday, 5pm",
         },
         link: {
           href: "",
@@ -140,7 +176,7 @@ module.exports = {
         presentation: {
           title: "Welcome!",
           description: "Welcome to Container Days Austin. ",
-          time: "Friday, 6:30pm"
+          time: "Friday, 6:30pm",
         },
         link: {
           href: "https://twitter.com/iteration1",
@@ -154,7 +190,7 @@ module.exports = {
         presentation: {
           title: "Keynote",
           description: "Container Days kickoff with an awesome keynote. Stay tuned for details.",
-          time: "Friday, 5:45pm"
+          time: "Friday, 5:45pm",
         },
         link: {
           href: "",
@@ -168,7 +204,7 @@ module.exports = {
         presentation: {
           title: "Happy Hour",
           description: "Kick back, and enjoy a happy hour with conference goers and peers.",
-          time: "Friday, 6:30pm"
+          time: "Friday, 6:30pm",
         },
         link: {
           href: "",
@@ -321,34 +357,39 @@ module.exports = {
 //        name: "StackEngine",
 //        logo: "http://stackengine.com/wp-content/uploads/2014/04/StackEngine_Lo_FF1-e1398284107204.jpg",
 //        url: "http://stackengine.com/"
-    sponsors: [
+    boothSponsors: [
+    {
+        name: "Rancher",
+        logo: "themes/yellow-swan/img/sponsor/rancher.png",
+        url: "http://www.rancher.com/"
+    },
+    {
+        name: "CDK Global",
+        logo: "themes/yellow-swan/img/sponsor/cdk.png",
+        url: "http://www.cdkglobal.com/"
+    },
+    {
+        name: "Sysdig",
+        logo: "themes/yellow-swan/img/sponsor/sysdig.png",
+        url: "http://www.sysdig.org/"
+    },
+    {
+        name: "NewIron",
+        logo: "themes/yellow-swan/img/sponsor/newiron.png",
+        url: "http://newiron.com/"
+    }
+    ],
+    breakfastSponsors: [
      {
         name: "Flux7",
         logo: "themes/yellow-swan/img/sponsor/flux7.png",
         url: "https://www.flux7.com/"
-      },
-     {
-        name: "Rancher",
-        logo: "themes/yellow-swan/img/sponsor/rancher.png",
-        url: "http://www.rancher.com/"
-      },
-     {
-        name: "CDK Global",
-        logo: "themes/yellow-swan/img/sponsor/cdk.png",
-        url: "http://www.cdkglobal.com/"
-      },
-     {
-        name: "Sysdig",
-        logo: "themes/yellow-swan/img/sponsor/sysdig.png",
-        url: "http://www.sysdig.org/"
-      },
-     {
-        name: "NewIron",
-        logo: "themes/yellow-swan/img/sponsor/newiron.png",
-        url: "http://newiron.com/"
       }
     ],
-
+    lunchSponsors: [
+    ],
+    hhSponsors: [
+    ],
     // List of Partners
     partners: [
      {
