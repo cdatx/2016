@@ -85,7 +85,7 @@ module.exports = {
           title: "Docker 101 Workshop",
           description: "Getting started with learning Docker with Bill Maxwell.",
           time: "Friday, 9am",
-          href: "/talks/workshop1.html",
+          href: "./talks/workshop1.html",
           hreftext: "Details..."
         },
         link: {
@@ -101,12 +101,12 @@ module.exports = {
           title: "Chef Habitat Workshop",
           description: "Introduction to Application Automation with Habitat.",
           time: "Friday, 9am",
-          href: "/talks/workshop2.html",
+          href: "./talks/workshop2.html",
           hreftext: "Details..."
         },
         link: {
-          href: "/workshops/habitat",
-          text: "Workshop details and pre req"
+          href: "",
+          text: ""
         }
       },      {
         name: "Workshop #2",
@@ -116,7 +116,7 @@ module.exports = {
           title: "Docker Swarm ++ ",
           description: "Orchestration Containers in Production at Scale with Docker Swarm with Everett Toews.",
           time: "Friday, 1pm",
-          href: "/talks/workshop3.html",
+          href: "./talks/workshop3.html",
           hreftext: "Details..."
         },
         link: {
@@ -132,7 +132,7 @@ module.exports = {
           title: "Intro to Kubernetes",
           description: "Go over Kubernetes specifics, and learn how to run container based applications in a Kubernetes cluster.",
           time: "Friday, 1pm",
-          href: "/workshops/workshop4.html",
+          href: "./talks/workshop4.html",
           hreftext: "Details..."
         },
         link: {
@@ -148,7 +148,7 @@ module.exports = {
           title: "Intro to Mesos",
           description: "Introduction to Mesos, learning how to build a production Mesos cluster, and common pitfalls.",
           time: "Friday, 1pm",
-          href: "/workshops/workshop5.html",
+          href: "./talks/workshop5.html",
           hreftext: "Details..."
         },
         link: {
