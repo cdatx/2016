@@ -176,7 +176,7 @@ module.exports = {
         presentation: {
           title: "Welcome!",
           description: "Welcome to Container Days Austin. ",
-          time: "Friday, 6:30pm",
+          time: "Friday, 5:30pm",
         },
         link: {
           href: "https://twitter.com/iteration1",
