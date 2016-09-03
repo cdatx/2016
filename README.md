@@ -11,8 +11,8 @@ You need nodejs and npm installed.  If you don't want to bother, just run `vagra
 Fork the repo and then set up development environment:
 
 ```
-$ git clone https://github.com/<github-username>/2015.git cdatx-2015
-$ cd cdatx-2015
+$ git clone git@github.com:cdatx/2016.git 2016-developer-name
+$ cd 2016-developer-name
 $ git checkout -b my_working_branch
 $ vagrant up
 $ vagrant ssh
@@ -92,13 +92,13 @@ By default, we have the following sections:
 2. Now clone it:
 
     ```sh
-    $ git clone git://github.com/braziljs/conf-boilerplate.git
+    $ git clone git@github.com:cdatx/2016.git
     ```
 
 3. Then go to the project's folder:
 
     ```sh
-    $ cd conf-boilerplate
+    $ cd 2016
     ```
 
 4. Install all dependencies:
