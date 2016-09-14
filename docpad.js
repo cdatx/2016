@@ -377,6 +377,11 @@ module.exports = {
         name: "NewIron",
         logo: "themes/yellow-swan/img/sponsor/newiron.png",
         url: "http://newiron.com/"
+    },
+    {
+        name: "Carina by Rackspace",
+        logo: "themes/yellow-swan/img/sponsor/carina.svg",
+        url: "https://getcarina.com/"
     }
     ],
     breakfastSponsors: [
