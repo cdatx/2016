@@ -384,6 +384,8 @@ module.exports = {
         url: "https://getcarina.com/"
     }
     ],
+    silverSponsors:[ 
+    ],
     breakfastSponsors: [
      {
         name: "Flux7",
