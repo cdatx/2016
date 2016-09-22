@@ -384,18 +384,28 @@ module.exports = {
         url: "https://getcarina.com/"
     }
     ],
-    silverSponsors:[ 
+    silverSponsors:[
+    {
+        name: "Ambonare",
+        logo: "themes/yellow-swan/img/sponsor/ambonare.png",
+        url: "https://www.ambonare.com/"
+    }
     ],
     breakfastSponsors: [
-     {
-        name: "Flux7",
-        logo: "themes/yellow-swan/img/sponsor/flux7.png",
-        url: "https://www.flux7.com/"
-      }
+    {
+      name: "Flux7",
+      logo: "themes/yellow-swan/img/sponsor/flux7.png",
+      url: "https://www.flux7.com/"
+    }
     ],
     lunchSponsors: [
     ],
     hhSponsors: [
+    {
+      name: "Chef",
+      logo: "themes/yellow-swan/img/sponsor/chef.png",
+      url: "https://www.chef.io/"
+    }
     ],
     // List of Partners
     partners: [
