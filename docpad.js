@@ -41,7 +41,6 @@ module.exports = {
       'sponsors',
       'register',
       'schedule',
-      'workshop',
       'openspaces',
       'conduct',
       'twitter'
@@ -57,8 +56,7 @@ module.exports = {
       register: "Register",
       openspaces: "Openspaces",
       conduct: "Conduct",
-      twitter: "Twitter",
-      workshop: "Workshop"
+      twitter: "Twitter"
     },
 
     // The entire schedule
