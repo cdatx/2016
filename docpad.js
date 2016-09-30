@@ -380,6 +380,11 @@ module.exports = {
         name: "Carina by Rackspace",
         logo: "themes/yellow-swan/img/sponsor/carina.svg",
         url: "https://getcarina.com/"
+    },
+    {
+        name: "Red Hat",
+        logo: "themes/yellow-swan/img/sponsor/RedHat.png",
+        url: "https://www.redhat.com/"
     }
     ],
     silverSponsors:[
