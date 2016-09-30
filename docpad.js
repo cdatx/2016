@@ -387,6 +387,11 @@ module.exports = {
         name: "Ambonare",
         logo: "themes/yellow-swan/img/sponsor/ambonare.png",
         url: "https://www.ambonare.com/"
+    },
+    {
+        name: "Joyent",
+        logo: "themes/yellow-swan/img/sponsor/Joyent.png",
+        url: "https://www.joyent.com/"
     }
     ],
     breakfastSponsors: [
