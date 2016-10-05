@@ -385,6 +385,11 @@ module.exports = {
         name: "Red Hat",
         logo: "themes/yellow-swan/img/sponsor/RedHat.png",
         url: "https://www.redhat.com/"
+    },
+    {
+        name: "Riverbed",
+        logo: "themes/yellow-swan/img/sponsor/riverbed.png",
+        url: "http://www.riverbed.com/appinternals/"
     }
     ],
     silverSponsors:[
