@@ -404,6 +404,13 @@ module.exports = {
         url: "https://www.joyent.com/"
     }
     ],
+    lanyardSponsor: [
+    {
+      name: "CoreOS",
+      logo: "themes/yellow-swan/img/sponsor/coreos.png",
+      url: "https://www.coreos.com/"
+    }
+    ],
     breakfastSponsors: [
     {
       name: "Flux7",

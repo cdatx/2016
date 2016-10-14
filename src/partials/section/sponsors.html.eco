@@ -58,6 +58,22 @@ This will be the 2nd installment of Container Days in Austin. Last year, contain
   </li>
 </ul>
 
+<h4>Lanyard Sponsors</h4>
+<ul class="sponsors-list">
+<% for sponsor in @lanyardSponsor: %>
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor--link" itemprop="url" target="_blank">
+      <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+    </a>
+  </li>
+<% end %>
+  <li class="sponsor-item">
+    <a class="sponsor-logo sponsor--link sponsor-call" href="#">
+      <img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
+    </a>
+  </li>
+</ul>
+
 <h4>Silver Sponsors</h4>
 <ul class="sponsors-list">
 <% for sponsor in @silverSponsors: %>
